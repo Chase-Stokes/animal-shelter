@@ -6,11 +6,14 @@ h1 {
   text-align:center;
   color:red;
 }
-.image {
-  margin: auto;
-  width: 35%;
-  height: auto;
+.image1 {
+  margin:auto;
+  width:70%;
+  height:auto;
   display:block;
+}
+img {
+  width:100%
 }
 .column1 h1 {
   color:blue;
@@ -22,17 +25,23 @@ h1 {
   color:blue;
 }
 .column1 {
-  width:300px;
+  width:25%;
   float:left;
   margin:50px;
+  column-fill: balance;
 }
 .column2 {
-  width:300px;
+  width:25%;
   float:left;
   margin:50px;
+  column-fill: balance;
 }
 .column3 {
-  width:300px;
+  width:25%;
   float:left;
   margin:50px;
+  column-fill: balance;
+}
+ul {
+  font-style:italic
 }
