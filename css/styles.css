@@ -1,3 +1,7 @@
+.body {
+  font: bold;
+  font-family: sans-serif;
+}
 h1 {
   text-align:center;
   color:red;
@@ -7,4 +11,28 @@ h1 {
   width: 35%;
   height: auto;
   display:block;
+}
+.column1 h1 {
+  color:blue;
+}
+.column2 h1 {
+  color:blue;
+}
+.column3 h1 {
+  color:blue;
+}
+.column1 {
+  width:300px;
+  float:left;
+  margin:50px;
+}
+.column2 {
+  width:300px;
+  float:left;
+  margin:50px;
+}
+.column3 {
+  width:300px;
+  float:left;
+  margin:50px;
 }
