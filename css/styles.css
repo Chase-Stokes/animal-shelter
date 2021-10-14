@@ -1,0 +1,10 @@
+h1 {
+  text-align:center;
+  color:red;
+}
+.image {
+  margin: auto;
+  width: 35%;
+  height: auto;
+  display:block;
+}
